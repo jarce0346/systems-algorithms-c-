@@ -545,5 +545,5 @@ int main()
 		test(solve(maze) == soln);
 	}
 
-	cout << "Assignment complete." << endl;
+	cout << "All mazes where solved" << endl;
 }

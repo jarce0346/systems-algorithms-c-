@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <vector>
-#include "tiling.h"
+#include "tiling.cpp"
 
 using namespace std;
 
@@ -316,7 +316,7 @@ int main()
         }
 
 
-	cout << "Assignment complete." << endl;
+	cout << "Finished " << endl;
 }
 
 
