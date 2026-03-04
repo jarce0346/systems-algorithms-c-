@@ -29,6 +29,7 @@ string solve(string maze);
 void organize_layout(string &s, Vertex* &push, vector<char> &layout, vector<pair<Vertex*, int>> &layoutPtr, int r, int &c, int i, unordered_map<int, int> &key);
 void organize_portal(string &s, Vertex* &push, vector<char> &layout, vector<pair<Vertex*, int>> &layoutPtr, int r, int &c, int i, unordered_map<int, int> &key, vector<pair<Vertex*, int>> &portal);
 void relax();
+void output_route();
 
 #endif 
 

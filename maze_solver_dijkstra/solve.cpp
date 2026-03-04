@@ -228,5 +228,6 @@ string solve(string maze){
         delete layoutPtr[i];
     }
     portalMap.clear();
+    cout << answer << endl;
     return answer;
 }
